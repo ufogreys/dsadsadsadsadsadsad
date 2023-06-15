@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 1376px) {
+  
+#openProject-cont .row {
+  max-width: 1200px;
+}
+  #social-cards a{
+    font-size: 16px;
+    margin: auto 3px;
+    padding: 5px 13px 12px 13px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  
+  #openProject-cont .row {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-toggler{
+    display: none;
+  }
+  #keyfeature-cont .container {
+    flex-direction: column;
+  }
+  #tokenomics-cont .row h2{
+    font-size: 40px;
+  }
+  .bsc-launch{
+    height: 400px;
+  }
+  .bsc-launch h2{
+    font-size: 32px;
+  }
+  .phase{
+    margin: 25px auto;
+  }
+  .phase .card-body{
+    padding: 0;
+  }
+  #keyfeature-cont{
+    margin: 50px auto;
+  }
+  #keyfeature-cont .card{
+    margin: 25px auto;
+  }
+  #keyfeature-cont .card-body{
+    text-align: center;
+  }
+  #openProject-cont .row{
+    width: 90%;
+  }
+  #social-cards a{
+    font-size: 16px;
+    margin: auto 3px;
+    padding: 5px 13px 12px 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App{
+    padding-bottom: 75px;
+  }
+  .hero-text {
+    width: 350px;
+  }
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .bsc-launch{
+    margin: 25px auto;
+    padding-bottom: 25px;
+  }
+  .foot-socials{
+    flex-direction: column;
+  }
+  .navbar-collapse .active{
+    margin: auto !important;
+  }
+  #tokenomics-cont .row .col-lg-4{
+    margin: 25px auto;
+  }
+  #openProject-cont .row{
+    justify-content: center;
+  }
+  #project-cont .container-fluid .cont{
+    justify-content: center;
+  }
+}
